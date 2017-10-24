@@ -13,4 +13,4 @@
 
 ### app-web
 
-1.前端代码： npm run build 代码打包路径： app-server/web/dist
+1.前端代码： npm run build 代码打包路径： app-server/web/dist. 
