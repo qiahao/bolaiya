@@ -1,0 +1,21 @@
+{
+	"banner" : "/static/images/home-banner2.jpg",
+	"productList" : [
+		{
+			"name": "prd1",
+			"image": "/static/images/home-banner.jpg"
+		},{
+			"name": "prd1",
+			"image": "/static/images/home-banner.jpg"
+		},{
+			"name": "prd1",
+			"image": "/static/images/home-banner.jpg"
+		},{
+			"name": "prd1",
+			"image": "/static/images/home-banner.jpg"
+		},{
+			"name": "prd1",
+			"image": "/static/images/home-banner.jpg"
+		}
+	]
+}

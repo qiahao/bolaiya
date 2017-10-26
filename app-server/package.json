@@ -1,10 +1,10 @@
 {
-  "name": "express-app",
+  "name": "bolaiya-server",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "node app.js",
+    "dev": "node app.js dev",
     "forever": "forever start app.js"
   },
   "author": "",

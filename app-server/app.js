@@ -5,7 +5,6 @@ let routerViews = require('./router/views/index.js')
 
 
 
-
 let app = express()
 
 app.use('/static',express.static('web/dist/static/'))

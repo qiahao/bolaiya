@@ -1,0 +1,28 @@
+@import '../../scss/helper/_variable.scss';
+
+.home-banner {
+    height: 300px;
+    width: 100%;
+    background: #f0f3f4 center;
+}
+
+.prd-list {
+    overflow: hidden;
+    margin-right: -20px;
+
+    .prd-item {
+        float: left;
+        width: 25%;
+        padding-right: 20px;
+        overflow: hidden;
+        .img {
+            height: 255px;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+}
