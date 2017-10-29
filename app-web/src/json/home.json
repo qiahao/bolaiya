@@ -1,21 +1,52 @@
 {
-	"banner" : "/static/images/home-banner2.jpg",
+	"banner" : "/static/images/home/home-banner2.jpg",
+	"caseList" : [
+		{
+			"title": "东泰禾案例1",
+			"image": "/static/images/home/home-banner.jpg"
+		},{
+			"title": "东泰禾案例2",
+			"image": "/static/images/home/home-banner.jpg"
+		},{
+			"title": "东泰禾案例3",
+			"image": "/static/images/home/home-banner.jpg"
+		},{
+			"title": "东泰禾案例",
+			"image": "/static/images/home/home-banner.jpg"
+		},{
+			"title": "东泰禾案例",
+			"image": "/static/images/home/home-banner.jpg"
+		},{
+			"title": "东泰禾案例",
+			"image": "/static/images/home/home-banner.jpg"
+		},{
+			"title": "东泰禾案例",
+			"image": "/static/images/home/home-banner.jpg"
+		},{
+			"title": "东泰禾案例",
+			"image": "/static/images/home/home-banner.jpg"
+		}
+	],
+	"about" : {
+		"title": "关于舶来雅",
+		"image": "/static/images/home/home-banner2.jpg",
+		"summarys": [
+			"舶来雅简介舶来雅简介舶来雅简介舶来雅简介舶来雅简介舶来雅简介舶来雅简介舶来雅简介舶来雅简介舶来雅简介舶来雅简介舶来雅简介舶来雅简介",
+			"舶来雅品牌介绍舶来雅品牌介绍舶来雅品牌介绍舶来雅品牌介绍舶来雅品牌介绍舶来雅品牌介绍舶来雅品牌介绍舶来雅品牌介绍舶来雅品牌介绍舶来雅品牌介绍舶来雅品牌介绍舶来雅品牌介绍舶来雅品牌介绍",
+			"舶来雅产品介绍舶来雅产品介绍舶来雅产品介绍舶来雅产品介绍舶来雅产品介绍舶来雅产品介绍舶来雅产品介绍舶来雅产品介绍舶来雅产品介绍舶来雅产品介绍舶来雅产品介绍舶来雅产品介绍舶来雅产品介绍",
+			"舶来雅服务介绍舶来雅服务介绍舶来雅服务介绍舶来雅服务介绍舶来雅服务介绍舶来雅服务介绍舶来雅服务介绍舶来雅服务介绍舶来雅服务介绍舶来雅服务介绍舶来雅服务介绍舶来雅服务介绍舶来雅服务介绍"
+		]
+	},
 	"productList" : [
 		{
-			"name": "prd1",
-			"image": "/static/images/home-banner.jpg"
+			"desc": "材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述",
+			"image": "/static/images/home/home-banner.jpg"
 		},{
-			"name": "prd1",
-			"image": "/static/images/home-banner.jpg"
+			"desc": "材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述",
+			"image": "/static/images/home/home-banner.jpg"
 		},{
-			"name": "prd1",
-			"image": "/static/images/home-banner.jpg"
-		},{
-			"name": "prd1",
-			"image": "/static/images/home-banner.jpg"
-		},{
-			"name": "prd1",
-			"image": "/static/images/home-banner.jpg"
+			"desc": "材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述材料简述",
+			"image": "/static/images/home/home-banner.jpg"
 		}
 	]
 }

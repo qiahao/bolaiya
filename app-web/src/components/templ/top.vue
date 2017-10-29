@@ -1,7 +1,7 @@
 <template>
   <div class="header">
   	<div class="wrapper">
-    <h1 class="fl"><a href="/home">舶来雅全屋定制</a></h1>
+    <h1 class="fl"><a href="/">舶来雅全屋定制</a></h1>
     <nav class="fr">
       <ul>
         <li v-for="(item,i) in navMenu">
@@ -41,7 +41,7 @@ export default {
     font-family: 'Avenir', Helvetica, Arial, sans-serif;
     h1{
     	line-height: 60px;
-    	font-size: 24px;
+    	font-size: 28px;
     	font-weight: bold;
     	a{
 		    color: $theme-color;

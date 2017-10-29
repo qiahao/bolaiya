@@ -3,26 +3,106 @@
 .home-banner {
     height: 300px;
     width: 100%;
+    color: #fff;
     background: #f0f3f4 center;
+    .wrapper{
+        padding-top: 60px;
+    }
+    h3{
+        font-size: 56px;
+    }
+    p{
+        font-size: 24px;
+    }
 }
 
-.prd-list {
-    overflow: hidden;
+// list-1
+.list-1 {
     margin-right: -20px;
-
-    .prd-item {
-        float: left;
-        width: 25%;
+    .item {
+        margin-bottom: 20px;
         padding-right: 20px;
         overflow: hidden;
         .img {
-            height: 255px;
+            height: 200px;
+            overflow: hidden;
+            &:hover{
+                img{
+                    transform: scale(1.1);
+                }
+            }
         }
 
         img {
             width: 100%;
             height: 100%;
+            transition: all .6s;
+        }
+        p{
+            height: 2em;
+            line-height: 2em;
+            text-align: center;
+            font-size: 18px;
         }
     }
 
 }
+
+// home-about
+.home-about-row{
+    position: relative;
+    height: 460px;
+    [class*=col-] {
+        height: 100%;
+        overflow: hidden;
+    }
+    .left-col{
+        background: center no-repeat;
+        background-size: cover;
+    }
+    .right-col{
+        padding-left: 30px;
+        p{
+            margin-bottom: 10px;
+            font-size: 16px;
+            text-indent: 2em;
+        }
+    }
+}
+
+// list-2
+.list-2{
+    margin-right: -20px;
+    .item{
+        margin-bottom: 30px;
+        padding-right: 20px;
+        .img{
+            position: relative;
+            height: 460px;
+            background: center no-repeat;
+            background-size: cover;
+            overflow: hidden;
+            &:hover{
+                & > div{
+                    bottom: 0;
+                }
+            }
+            & > div{
+                position: absolute;
+                // bottom: 0;
+                bottom: -30%;
+                left: 0;
+                width: 100%;
+                height: 30%;
+                padding: 15px 10px 0 10px;
+                color: #fff;
+                background: rgba(0,0,0,.5);
+                font-size: 16px;
+                text-indent: 2em;
+                transition: all 0.6s;
+
+            }
+        }
+    }
+}
+// 
