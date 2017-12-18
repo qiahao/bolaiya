@@ -8,14 +8,12 @@ let resolve = (dir) => {
 	return path.join(appConf.root, dir)
 }
 
-
-
+// 首页
 router.get('/', (req, res, next) => {
-	res.sendFile(resolve('web/dist/index.html'))
+	res.render('home/index')
 })
-
 router.get('/index', (req, res, next) => {
-	res.sendFile(resolve('web/dist/index.html'))
+	res.render('home/index')
 })
 
 exports = module.exports = router
