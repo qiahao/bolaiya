@@ -1,0 +1,61 @@
+html,body{
+	width: 100%;
+	min-height: 100%;
+	overflow: hidden;
+}
+.clearfix::after,.cf:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clear-after{content:".";display:block;height:0;clear:after;visibility:hidden}
+.fl { float: left; }
+.fr { float: right; }
+.rlt { position: relative; }
+.abs { position: absolute; }
+.dn { display: none; }
+.db { display: block; }
+.dib { display: inline-block; }
+.tc { text-align: center; }
+.tl { text-align: left; }
+.tr { text-align: right; }
+.ell, .toe { text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.ell2, .toe2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; }
+
+// text-color
+
+.text-primary{color: $primary-color;}
+.text-info{color: $info-color;}
+.text-success{color: $success-color;}
+.text-warning{color: $warning-color;}
+.text-error{color: $error-color;}
+
+
+@for $i from 1 through 8 {
+	$num: $i * 5;
+	$numPx: $num + px;
+	.mt#{$num}{margin-top: $numPx; }
+	.mb#{$num}{margin-bottom: $numPx; }
+	.mr#{$num}{margin-right: $numPx; }
+	.ml#{$num}{margin-left: $numPx; }
+	.mtb#{$num}{margin-top: $numPx; margin-bottom: $numPx; }
+	.mlr#{$num}{margin-left: $numPx; margin-right: $numPx; }
+	.mg#{$num}{margin: $numPx; }
+
+	.pt#{$num}{padding-top: $numPx; }
+	.pb#{$num}{padding-bottom: $numPx; }
+	.pr#{$num}{padding-right: $numPx; }
+	.pl#{$num}{padding-left: $numPx; }
+	.ptb#{$num}{padding-top: $numPx; padding-bottom: $numPx; }
+	.plr#{$num}{padding-left: $numPx; padding-right: $numPx; }
+	.pd#{$num}{padding: $numPx; }
+
+	.fs#{$i+9}{font-size: $i+9+px; }
+}
+
+@for $i from 1 through 30 {
+	.w#{$i * 10} {
+		width: $i * 10px !important;
+	}
+	@if $i<21 {
+		.w#{$i * 5}p {
+			width: $i * 5% !important;
+		}
+	}
+}
